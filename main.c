@@ -1,9 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Karşılaştırma fonksiyonu
-int karsilastir(const void* a, const void* b) {
-    return (*(int*)a - *(int*)b);
+// Eklemeli sıralama algoritması
+void insertionSort(int dizi[], int n) {
+    int i, anahtar, j;
+
+    for (i = 1; i < n; i++) {
+        anahtar = dizi[i];
+        j = i - 1;
+
+        while (j >= 0 && dizi[j] > anahtar) {
+            dizi[j + 1] = dizi[j];
+            j = j - 1;
+        }
+
+        dizi[j + 1] = anahtar;
+    }
 }
 
 // Binary search algoritması
@@ -31,9 +43,10 @@ int main() {
     int boyut = sizeof(dizi) / sizeof(dizi[0]);
 
     // Diziyi sırala
-    qsort(dizi, boyut, sizeof(int), karsilastir);
+    int n = sizeof(dizi) / sizeof(dizi[0]);
+    insertionSort(dizi, n);
 
-    // Binary search ile 24 sayısının index'ini bul
+    // Binary search ile 24 sayısının index'ini bul ve yazdır
     int bul = 24;
     int sonuc = binarySearch(dizi, 0, boyut - 1, bul);
     if (sonuc == -1)

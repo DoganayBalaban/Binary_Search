@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/user/CLionProjects/AlgoritmaOdev2.1/cmake-build-debug"
+			"value" : "C:/Users/user/Desktop/AlgoritmaOdev2.1.1/cmake-build-debug"
 		},
 		{
 			"name" : "AlgoritmaOdev2_1_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/user/CLionProjects/AlgoritmaOdev2.1"
+			"value" : "C:/Users/user/Desktop/AlgoritmaOdev2.1.1"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/user/CLionProjects/AlgoritmaOdev2.1/cmake-build-debug"
+			"value" : "c:/Users/user/Desktop/AlgoritmaOdev2.1.1/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -467,7 +467,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/user/CLionProjects/AlgoritmaOdev2.1/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/user/Desktop/AlgoritmaOdev2.1.1/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/user/CLionProjects/AlgoritmaOdev2.1"
+			"value" : "C:/Users/user/Desktop/AlgoritmaOdev2.1.1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
